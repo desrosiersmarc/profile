@@ -1,0 +1,90 @@
+body {
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+  background-color: #E5E4E2;
+
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+  color: #888;
+}
+
+h3 {
+  color: #999;
+}
+
+img {
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: #FF1494;
+}
+
+a:hover {
+  color: #5B247F;
+  font-size: 3em;
+}
+
+
+th {
+  color: #FF1494;
+  font-weight: 800;
+  text-align: left;
+}
+td {
+  font-style: italic;
+  width: 200px;
+}
+
+ul li {
+  display: inline;
+}
+
+.container {
+  width: 505px;
+  margin: auto;
+  padding: 10px;
+}
+
+.img_border_shadow_ {
+  box-shadow: 10px 10px 10px #999;
+}
+
+.div_card {
+  background-color: #FFF;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #999;
+}
+.div_card_text_center {
+  text-align: center;
+  line-height: 0.5em;
+
+}
+
+.div_backgroung_nyc {
+  background: url("images/nyc.jpg");
+  background-size: 100%;
+}
+
+.picture_round {
+  border-radius: 50%;
+  height: 150px;
+}
+
+.p_color_white {
+  color: #FFF;
+}
+
+.space_text_letter {
+  letter-spacing: 30px;
+}
