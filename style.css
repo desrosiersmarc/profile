@@ -56,6 +56,11 @@ td {
   width: 200px;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .container ul li {
   display: inline;
 }
@@ -70,6 +75,13 @@ td {
 }
 
 .img_border_shadow_ {
+  box-shadow: 10px 10px 10px #999;
+}
+
+.div_card_header {
+  background-color: #FFF;
+  margin: 20px;
+  border-radius: 5px;
   box-shadow: 10px 10px 10px #999;
 }
 
@@ -92,6 +104,7 @@ td {
 }
 
 .picture_round {
+  margin-top: 10px;
   border-radius: 50%;
   height: 150px;
 }
@@ -113,7 +126,9 @@ td {
   line-height: 5em;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
+.filter_div {
+  background-color: rgba(9, 9, 9, 0.5);
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
 }
