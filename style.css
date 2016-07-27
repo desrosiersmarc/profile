@@ -23,13 +23,25 @@ img {
   height: 200px;
 }
 
-a {
+.a_page {
   text-decoration: none;
   color: #FF1494;
+  font-size: 1.5em;
 }
 
-a:hover {
+.a_page:hover {
   color: #5B247F;
+  font-size: 3em;
+}
+
+.a_sidebar {
+  text-decoration: none;
+  color: #888;
+  font-size: 1.5em;
+}
+
+.a_sidebar:hover {
+  color: #FFF;
   font-size: 3em;
 }
 
@@ -44,13 +56,16 @@ td {
   width: 200px;
 }
 
-ul li {
+.container ul li {
   display: inline;
 }
 
 .container {
-  width: 505px;
+  width: 80%;
+  margin-left: 300px;
   margin: auto;
+  margin-left: 150px;
+  min-width: 500px;
   padding: 10px;
 }
 
@@ -87,4 +102,18 @@ ul li {
 
 .space_text_letter {
   letter-spacing: 30px;
+}
+#sidebar {
+  position: fixed;
+  width: 150px;
+  background-color: #384047;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  line-height: 5em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
 }
