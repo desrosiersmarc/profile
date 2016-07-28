@@ -1,0 +1,62 @@
+.banner {
+  /*background: linear-gradient(135deg, rgba(247,223,246,0.8) 10%, rgba(220,220,220,0) 50%), url(ban5.png);*/
+  background: url(ban5.png);
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-picture {
+  width: 200px;
+  margin-top: 30px;
+/*  top: 10px;
+  left: 10px;
+  position: absolute;*/
+}
+
+.avatar {
+  background-color: #FFF;
+  opacity: 0.8;
+  border-radius: 50%;
+ /* padding: 5px;
+  border: 2px solid #FFF;
+ */ height: 200px;
+  width:200px;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+
+.btn-go {
+  height: 80px;
+  background-color: #F10091;
+  padding: 20px 45px;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+}
+
+h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  text-shadow: #000 0px 0px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.element-center {
+  position: relative;
+  margin: auto;
+}
