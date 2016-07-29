@@ -1,0 +1,17 @@
+/* Footer design */
+.wrapper-footer {
+  background-color: #333333;
+  color:#CCCCCC;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.wrapper-footer li {
+  font-size: 30px;
+}
+
+.wrapper-footer li:hover {
+  color: yellow;
+}
